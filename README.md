@@ -46,10 +46,6 @@ npm install && npm run dev
 php artisan serve
 ```
 
-## Notes
-
-Terima kasih untuk mas @bagussatoto, yang sudah membuat core dari aplikasi ini di link berikut : https://github.com/bagussatoto/Aplikasi-Data-Penjualan-Laravel-8
-
 sukses selalu ya mas 
 
 ---
