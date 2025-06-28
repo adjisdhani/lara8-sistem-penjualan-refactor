@@ -1,0 +1,39 @@
+# Dependency directories
+/vendor
+/node_modules
+
+# Laravel specific
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+.env
+.env.*
+.phpunit.result.cache
+.php_cs.cache
+bootstrap/cache/*.php
+
+# Ignored build files
+/public/hot
+/public/mix-manifest.json
+/public/js/*
+/public/css/*
+!/public/js/.gitignore
+!/public/css/.gitignore
+
+# IDE & system files
+/.idea
+/.vscode
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Docker/Homestead
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+
+# OS generated
+.DS_Store
+Thumbs.db
