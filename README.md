@@ -1,4 +1,4 @@
-# Refactor aplikasi sistem informasi penjualan simple (Laravel 8)
+# Refactor Aplikasi Sistem Informasi Penjualan (Laravel 8)
 
 Aplikasi CRUD penjualan dengan fitur:
 - Modular MVC + Repository Pattern
@@ -8,57 +8,57 @@ Aplikasi CRUD penjualan dengan fitur:
 - Export ke Excel
 - Validasi custom dengan FormRequest
 
-## Prerequisites
+## 🎯 Tujuan
+Project ini dibuat sebagai **latihan dan showcase refactor** dari aplikasi penjualan Laravel sederhana, dengan pendekatan arsitektur modern.
 
-Ensure you have the following installed on your system:
+---
 
-- **Node.js** (v14 or higher)
-- **MySQL**
-- **npm** (Node Package Manager)
--- **PHP version 7.4**
+## 🚀 Login Demo
 
-## Login Demo
-- Email: admin@example.com
+- Email: admin@example.com  
 - Password: password
 
-## Installation Steps
+---
 
-Follow these steps to set up the project:
+## 🔧 Prerequisites
 
-### 1. Clone the Repository
+Pastikan kamu sudah install:
+- **PHP 7.4+**
+- **MySQL**
+- **Node.js 14+**
+- **npm**
+
+---
+
+## 📦 Installation
+
 ```bash
 git clone https://github.com/adjisdhani/lara8-sistem-penjualan-refactor
-```
-
-### 2. Navigate to the Project Directory
-```bash
 cd lara8-sistem-penjualan-refactor
-```
-
-### 3. Install Dependencies
-Install the required dependencies by running:
-```bash
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 npm install && npm run dev
 php artisan serve
-```
 
-## Notes
 
-Terima kasih untuk mas @bagussatoto, yang sudah membuat core dari aplikasi ini di link berikut : https://github.com/bagussatoto/Aplikasi-Data-Penjualan-Laravel-8
+## 🙏 Credit
 
-sukses selalu ya mas 
+Aplikasi ini merupakan hasil refactor dari project milik @bagussatoto:
+🔗 https://github.com/bagussatoto/Aplikasi-Data-Penjualan-Laravel-8
+
+Project aslinya sangat membantu sebagai bahan belajar.
+Refactor ini dilakukan untuk latihan pribadi dan showcase, bukan untuk komersialisasi.
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 Adjis Ramadhani Utomo
 
 ---
 
 ## License
-This project is open-source.
+Project ini tidak memiliki lisensi open-source resmi karena project asal belum menyertakan file LICENSE.
+Silakan gunakan untuk belajar dan non-komersial saja.
